@@ -1,0 +1,10 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Distribuidos 
+Dev: Douglas Leonel de Almeida
+DATA: 03/05/2023 
+
+Para executar o código, basta abrir dois terminais e executar o servidor em um terminal e o cliente em outro. 
+
+O servidor irá aguardar uma conexão e, quando o cliente se conectar, irá apresentar a mensagem recebida no console. 
+
+O cliente irá entrar com a mensagem a ser enviada para o servidor e, após enviar, irá finalizar.
