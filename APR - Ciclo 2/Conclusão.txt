@@ -1,0 +1,16 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Distribuidos 
+Dev: Douglas Leonel de Almeida
+DATA: 09/05/2023 
+
+Neste projeto, implementamos um protocolo de comunicação básico usando TCP e desenvolvemos um servidor e um cliente em Python. 
+
+Também discutimos como implementar recursos adicionais, como autenticação de usuário ou criptografia de mensagens, e como testar a eficiência da aplicação. 
+
+É importante lembrar que a segurança é uma preocupação crítica ao implementar uma aplicação de rede.
+
+E é importante considerar aspectos de segurança, como a prevenção de ataques de negação de serviço (DDoS) e a proteção dos dados transmitidos.
+
+
+
+

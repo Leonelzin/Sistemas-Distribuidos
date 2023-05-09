@@ -1,0 +1,8 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Distribuidos 
+Dev: Douglas Leonel de Almeida
+DATA: 09/05/2023 
+
+Para implementar autenticação de usuário ou criptografia de mensagens, é necessário modificar o protocolo de comunicação e adicionar novos tipos de mensagem e formatos de mensagem. Para autenticação de usuário, pode-se adicionar um tipo de mensagem "LOGIN" que inclua o nome de usuário e a senha criptografada. 
+
+Para criptografia de mensagens, pode-se adicionar um tipo de mensagem "ENCRYPTED_MESSAGE" que inclua o conteúdo da mensagem criptografado usando uma chave de criptografia compartilhada.

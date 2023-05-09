@@ -1,0 +1,8 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Distribuidos 
+Dev: Douglas Leonel de Almeida
+DATA: 09/05/2023 
+
+Para testar a eficiência da aplicação em situações de alta demanda, pode-se usar ferramentas de teste de carga como o Apache JMeter ou o Tsung. Essas ferramentas permitem simular muitos usuários conectando-se ao servidor simultaneamente e enviando mensagens. 
+
+É importante garantir que a aplicação possa lidar com uma carga de tráfego pesada sem ficar sobrecarregada ou ficar instável.
