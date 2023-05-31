@@ -1,0 +1,59 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Distribuidos 
+Dev: Douglas Leonel de Almeida
+DATA: 31/05/2023
+
+RPC (Remote Procedure Call), ou Chamada de Procedimento Remoto, é um mecanismo utilizado em sistemas distribuídos para permitir que um programa em um computador execute um procedimento em outro computador, como se estivesse executando localmente. 
+
+É uma forma de comunicação entre processos em diferentes máquinas, tornando a interação entre sistemas distribuídos mais transparente.
+
+No RPC, o processo que solicita a execução de um procedimento é chamado de cliente, e o processo que disponibiliza esse procedimento para ser executado é chamado de servidor. 
+
+O cliente envia uma requisição ao servidor, especificando qual procedimento deseja executar e quais parâmetros são necessários. 
+
+O servidor recebe a requisição, executa o procedimento e retorna o resultado para o cliente.
+
+O funcionamento do RPC envolve vários componentes essenciais. O cliente e o servidor devem possuir uma interface de procedimento que define os procedimentos disponíveis e seus parâmetros. Essa interface é geralmente descrita em uma linguagem de definição de interface, como o IDL (Interface Definition Language).
+
+Além disso, existe um stub (ou proxy) no cliente e um skeleton (ou stub) no servidor. 
+
+O stub é responsável por empacotar os parâmetros da requisição e enviar ao servidor, e o skeleton é responsável por receber a requisição, desempacotar os parâmetros, invocar o procedimento correspondente e retornar o resultado.
+
+Uma das principais vantagens do RPC é a abstração do sistema distribuído. O cliente não precisa se preocupar com detalhes de comunicação de baixo nível, como o envio e recebimento de mensagens pela rede. 
+
+Ele pode tratar a chamada de procedimento remoto como se fosse uma chamada local, o que facilita o desenvolvimento de aplicações distribuídas.
+
+Outra vantagem é a possibilidade de reutilizar código existente. Se um procedimento já está implementado em um servidor, outros clientes podem utilizar esse procedimento remotamente sem a necessidade de reimplementação. 
+
+Isso proporciona uma maior modularidade e eficiência na construção de sistemas distribuídos.
+
+No entanto, a implementação de RPC também apresenta limitações e desafios. Um dos desafios é garantir a transparência na chamada de procedimento remoto. 
+
+É necessário que o cliente e o servidor concordem sobre a interface de procedimento e a semântica das chamadas, para evitar problemas de compatibilidade.
+
+Além disso, o RPC pode ser impactado pela latência de rede e pela sobrecarga de comunicação. Como a chamada de procedimento envolve a troca de mensagens pela rede, o tempo de resposta pode ser maior do que em uma chamada de procedimento local. 
+
+É importante considerar esses aspectos ao projetar sistemas distribuídos baseados em RPC.
+
+No contexto de casos de uso e aplicações da RPC em sistemas distribuídos, existem diversas situações em que essa abordagem é utilizada. 
+
+Por exemplo, em sistemas de computação distribuída, como a computação em nuvem, o RPC é empregado para a interação entre os componentes distribuídos. 
+
+Aplicações web também podem fazer uso de RPC para realizar chamadas a serviços remotos, como APIs.
+
+Outro exemplo é o uso de RPC em sistemas de banco de dados distribuídos. Nesse caso, a RPC permite que consultas e 
+operações de manipulação de dados sejam executadas em diferentes nós do sistema distribuído, proporcionando uma forma eficiente de acesso aos dados distribuídos.
+
+Também é comum encontrar RPC sendo aplicado em sistemas de comunicação entre dispositivos, como em Internet das Coisas (IoT). Nesse contexto, os dispositivos podem usar RPC para interagir com servidores remotos e obter informações, enviar comandos ou compartilhar dados.
+
+Outra aplicação relevante é em sistemas de arquitetura orientada a serviços (SOA), em que diferentes serviços são disponibilizados como componentes independentes. 
+
+O RPC é utilizado para a comunicação entre esses serviços, permitindo a chamada de procedimentos remotos para acessar as funcionalidades oferecidas pelos serviços.
+
+Em resumo, o RPC é uma poderosa técnica para permitir a execução remota de procedimentos em sistemas distribuídos. 
+
+Com sua abstração e transparência, facilita o desenvolvimento de aplicações distribuídas, reutilização de código e integração entre sistemas. 
+
+No entanto, é necessário lidar com desafios como a compatibilidade de interfaces e o gerenciamento da sobrecarga de comunicação. 
+
+Com sua versatilidade, o RPC encontra aplicação em uma variedade de cenários, desde sistemas em nuvem e IoT até arquiteturas SOA.
