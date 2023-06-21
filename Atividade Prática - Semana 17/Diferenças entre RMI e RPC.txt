@@ -1,0 +1,39 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Distribuidos 
+Dev: Douglas Leonel de Almeida
+DATA: 21/06/2023 
+
+RMI (Remote Method Invocation):
+O RMI é uma tecnologia que permite a invocação de métodos em objetos remotos, tornando possível a comunicação entre processos em diferentes máquinas virtuais. Ele é baseado na linguagem de programação Java e usa o conceito de serialização para transmitir objetos entre cliente e servidor.
+
+Vantagens do RMI:
+
+Orientado a objeto: O RMI permite a invocação de métodos em objetos remotos, proporcionando uma abordagem orientada a objeto para a comunicação entre sistemas distribuídos.
+Transparência: Os objetos remotos no RMI são acessados de forma transparente como se estivessem localmente disponíveis.
+Segurança: O RMI fornece mecanismos de segurança integrados, como autenticação e criptografia, para garantir a proteção dos dados transmitidos entre cliente e servidor.
+Portabilidade: O RMI é baseado em Java, o que torna os aplicativos portáveis entre diferentes plataformas.
+
+Desvantagens do RMI:
+
+Limitado ao ecossistema Java: O RMI é restrito ao uso em aplicações Java, o que pode limitar sua utilização em sistemas que não são baseados em Java.
+Complexidade de configuração: Configurar corretamente o RMI pode ser um processo complexo, envolvendo a definição de interfaces, registro de objetos remotos e configuração de políticas de segurança.
+Exemplo de aplicação do RMI:
+Um exemplo comum de aplicação do RMI é um sistema bancário distribuído, no qual os clientes podem fazer transações em suas contas bancárias através de uma interface de usuário local, enquanto os objetos remotos no servidor tratam das operações de negócio, como depósitos, saques e transferências.
+
+RPC (Remote Procedure Call):
+O RPC é um protocolo de comunicação que permite a chamada de procedimentos ou funções em um sistema remoto. Ele permite que um programa solicite um serviço em uma máquina remota, como se estivesse chamando uma função localmente.
+
+Vantagens do RPC:
+
+Simplicidade: O RPC oferece uma abordagem simples e direta para a comunicação entre sistemas distribuídos, onde as chamadas de função são feitas remotamente.
+Ampla compatibilidade: O RPC é suportado em várias linguagens de programação, permitindo que sistemas distribuídos se comuniquem independentemente das tecnologias utilizadas em cada lado.
+Baixa sobrecarga de comunicação: O RPC é projetado para ser eficiente, com baixa sobrecarga de comunicação, o que o torna adequado para ambientes de rede com recursos limitados.
+
+Desvantagens do RPC:
+
+Acoplamento rígido: O RPC cria um acoplamento rígido entre o cliente e o servidor, uma vez que o cliente precisa conhecer a interface e a localização do serviço remoto.
+Maior vulnerabilidade a falhas: No RPC, uma falha no servidor pode causar problemas em todo o sistema, uma vez que as chamadas de função são síncronas e bloqueantes.
+Exemplo de aplicação de RPC:
+Um exemplo comum de aplicação do RPC é um sistema de armazenamento distribuído, onde os clientes podem solicitar operações de leitura e gravação em arquivos localizados em servidores remotos. O cliente faria chamadas de função remotas para o servidor, solicitando operações específicas, como "ler arquivo" ou "escrever arquivo".
+
+Em resumo, tanto o RMI quanto o RPC são tecnologias de comunicação em sistemas distribuídos. O RMI é orientado a objeto, baseado em Java e fornece transparência e segurança, mas é limitado ao ecossistema Java. Já o RPC é simples, compatível com várias linguagens, porém cria um acoplamento rígido e é mais vulnerável a falhas. A escolha entre RMI e RPC dependerá dos requisitos e das características específicas do sistema distribuído em questão.
