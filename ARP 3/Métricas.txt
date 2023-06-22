@@ -1,0 +1,40 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Distribuidos 
+Dev: Douglas Leonel de Almeida
+DATA: 22/06/2023 
+
+Para garantir a segurança do sistema de acompanhamento dos casos de Dengue que funciona online, é essencial abordar várias áreas e implementar medidas de segurança em diferentes níveis. A seguir, são apresentadas algumas métricas de segurança e soluções que podem ser implementadas em diferentes partes do sistema:
+
+Autenticação e Autorização:
+
+Implementar um sistema de autenticação robusto, como a utilização de senhas fortes e políticas de senha adequadas.
+Utilizar autenticação de dois fatores (2FA) para adicionar uma camada extra de segurança.
+Implementar um controle de acesso baseado em funções (RBAC) para garantir que apenas usuários autorizados tenham acesso a determinadas funcionalidades do sistema.
+Utilizar tokens de autenticação com tempo de expiração para limitar o tempo de acesso de um usuário.
+
+Criptografia:
+
+Utilizar protocolos de criptografia seguros (como HTTPS) para proteger a comunicação entre o cliente e o servidor, garantindo a confidencialidade e integridade dos dados transmitidos.
+Armazenar informações sensíveis, como senhas, de forma criptografada no banco de dados.
+Gerenciamento de Vulnerabilidades:
+
+Realizar análises regulares de vulnerabilidades e testes de penetração no sistema para identificar possíveis pontos fracos e corrigi-los antes que sejam explorados por atacantes.
+Manter o sistema e as bibliotecas de terceiros atualizados com as últimas correções de segurança.
+
+Proteção contra Ataques:
+
+Implementar mecanismos de proteção contra ataques comuns, como ataques de força bruta, injeção de SQL e cross-site scripting (XSS).
+Utilizar firewalls para filtrar e monitorar o tráfego de rede.
+Implementar técnicas de proteção contra ataques de negação de serviço (DoS) e de inundação (DDoS).
+
+Auditoria e Monitoramento:
+
+Registrar e auditar todas as ações realizadas pelos usuários no sistema para identificar atividades suspeitas.
+Monitorar o sistema em tempo real em busca de atividades anômalas ou tentativas de acesso não autorizadas.
+Implementar alertas e notificações para detectar rapidamente eventos de segurança e responder a eles de maneira adequada.
+
+Backup e Recuperação:
+
+Implementar uma política de backup regular dos dados do sistema e testar periodicamente a recuperação desses backups para garantir sua integridade.
+Criar um plano de contingência que inclua procedimentos de recuperação em caso de violação de segurança ou falhas no sistema.
+Essas são apenas algumas métricas de segurança que podem ser aplicadas ao sistema de acompanhamento dos casos de Dengue online. É importante ressaltar que cada sistema é único e pode exigir soluções adicionais ou adaptadas às suas necessidades específicas. Além disso, é recomendado consultar especialistas em segurança da informação para uma avaliação completa do sistema e implementação adequada das medidas de segurança.
