@@ -1,7 +1,7 @@
 #Curso de Engenharia de Software - UniEVANGÉLICA 
 #Disciplina de Sistemas Distribuidos 
 #Dev: Douglas Leonel de Almeida
-#DATA: 21/06/2023 
+#DATA: 22/06/2023 
 
 import Pyro4
 
